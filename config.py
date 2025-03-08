@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "19485442"))
-API_HASH = getenv("API_HASH", "a03fcb372b3ec4e406b5d52f84b02e53")
+API_ID = int(getenv("API_ID", "22457156"))
+API_HASH = getenv("API_HASH", "6787a66c5c7d4018a01fe4d5d7249992")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8129962630:AAFr9JBeO_5TnOzSrV3igASX1ipR7C0mc8c")
+BOT_TOKEN = getenv("BOT_TOKEN", "8059284115:AAGU1st9p5BUXxi-DPIEta5sn3sKvATGNtE")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rahidindi:rahidindi_1234@cluster0.ifslufs.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://GunayMusicBot:GunayMusicBot@gunaymusicbot.uk74g.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999999999))
 
@@ -23,24 +23,24 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002400247577"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002442606881"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6931133289"))
+OWNER_ID = int(getenv("OWNER_ID", "7921077233"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "yasi")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-2a9c7792-2b26-4876-aebd-8a0b166769b5")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RahidBot/EliteMusic",
+    "https://github.com/xSanalOwner/Gunel",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", "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"
+    "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotlarAz/152")
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @SessionMotherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "AgEpUwIAiO9u_aacpp2AAyUIHqL73Rxxld0e8tC9EmZrI_M0agUNmb8wadjc1_vWbDYkNeQC9q_3YG47I1PeC5Uc2czlp7NluW0PAk3OtY7LxLD3jcDWJyzcoHhX8VfLB3zJunSIbonUSfqpLhpUpVyTg5ulDJpuri-EEOdsNDQ84tP1nLXMBHBTUF0pONYcWzv-4utT2dOp0ibEAsmnHmfHsux8UhJeng-4ssRCiO-JJDRX5EkBf1i3UMBhoOtlQfaVQYts9fSjHbHw-N3ddE_DLsx5hMKooP5rw4b6F3QtzzdZ-yF6YG9PfRlAXsB7T4rar5jkFBkDcMCBSQrI-58US6DoywAAAAHQVlIoAA")
+STRING1 = getenv("STRING_SESSION", "AgE6r1EAe39XuDcWMgwgYPXjt9SEVD4BBcD407xPGDQJLw5LpqUUurn5G3FR7_CN4ysjygfiXFjKBYPtHbutxYk4Id_FoWsA9U2bFW7dEBj4i6yEs5lU29O9Ddi6A1d3l5dOTewcI_GAg-HBlji6F92nh6YhdW4r7c4HH1FLZw1pFf2fa9X-FxH652MuM9KsSnSIqE1ws57ivbfGHxEJtwltGDt2tukdj7QAWBdMFvYvQMdVvaDqyGFbewVm_qPtM9l3JbnDbMrJdndpBQUPZWn9krdVwuszSwiAvh6MilZOqRy8Kcv3KC004BQytHfIoxjq9DuwQ58Sk28t-nU0yfI7O5zYvAAAAAHm8E4uAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
