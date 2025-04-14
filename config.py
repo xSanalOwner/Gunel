@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "22456344"))
 API_HASH = getenv("API_HASH", "7083c6c4d73137d5509814bdadb5645e")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8059284115:AAEa0Dhss3oBEHre4e7JXae0BLC-hquh_-8")
+BOT_TOKEN = getenv("BOT_TOKEN", "7083c6c4d73137d5509814bdadb5645e")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://GunayMusicBot:GunayMusicBot@gunaymusicbot.uk74g.mongodb.net/?retryWrites=true&w=majority")
@@ -26,7 +26,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002601923313"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7925819123"))
+OWNER_ID = int(getenv("OWNER_ID", "7639029256"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @SessionMotherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "AgFzrBMAiFgy06zG9sXgNuyyX6X70a6tGzbpmwqo2EkysGsKED797SwjhfCEErUEDrceGLToJxurUaMcOHZ2E3TS91wqi2ZAAaflOxS9QFSOrhQ5igYceIyFud5JC3f2nBtPl4rNS455hRVRXaHL472YF4Z4eRl18MOu4LstIZEabmQWgECrXfUJESaJptoo0hzG3xAyQvHF6SQQZUNy5ryP-e84bCfBeoJ0XvP1U-e7CRtcdG3jsAy3kvLLLQGrg3E6ad87OVhEcTBHTsrFXSq3_vxST2deSqAy42MegFbc4wv_t4nIacsVKaneEYqTu5wt_-pKZIgd23M-0GixyOVpDPltKwAAAAHOdg9fAA")
+STRING1 = getenv("STRING_SESSION", "AgFWqBgAWjTPBRhoo5NeqgXmQRblFCRaAlBsgdczAPc9BnHEr9oE_QOnZzxCeFghRFvezWEYUuL-kX1HVB6Adwu08yYwv6dPKdfdLTJ7UO0ym3O2Yk428C-DRJvUFPStmyNwRohVU4bpvEd8ipdXQLXAKSr2IlA0nZk-Koa0oyXX6D7qArKOde01W2UcaOMtdfl76baDxdRBbfWW7JF7JPBlfIuIUfT04BSC13vTYtbDhGCH0yEpfwzIlrubYzl3gqQ0nhL41IqbH1vSNURbfvlgZPOZOYJEVlQJL7-Gb3VPlQXWHasnG-dnPuutavb3VOocAkdkLAkHlGZxW_L5eeI2UJWFDgAAAAHHUlYIAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
